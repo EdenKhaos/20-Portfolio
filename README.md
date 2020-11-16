@@ -38,7 +38,7 @@ LinkedIn:
 [Resume](https://drive.google.com/file/d/1_PPCD79WoTThKe_K5aL6GPwk97wzwSBU/view?usp=sharing)
 
 ## Screenshot;
-![home]()
+![home](https://github.com/EdenKhaos/20-Portfolio/blob/main/public/images/screenshot.JPG)
 
 ## Follow React File Setup
 I used a free template from Tim Baker and their library to create this more uniform contemporary portfolio page. I Continued with the one portfolio page that scrolls with links to projects. 
