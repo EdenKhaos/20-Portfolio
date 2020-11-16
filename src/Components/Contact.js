@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = ({ data }) => {
-   const [url, setUrl] = useState('mailto:heathec.design@gmail.com?subject=subject&body=body');
+   const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
    const [name, setName] = useState('');
    const [subject, setSubject] = useState('');
    const [email, setEmail] = useState('');
@@ -9,10 +10,22 @@ const Contact = ({ data }) => {
 
    console.log(data)
 
-    const handleClick = (e) => {
-       e.preventDefault();
-      window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
-    }
+   //  const handleClick = (e) => {
+   //     e.preventDefault();
+   //    window.open(`mailto:${email}?subject=${subject}&body=${name}: ${message}`);
+   //  }
+
+   function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('gmail', 'service_mzslu1t', e.target, 'user_F8g6m161066ebOv4Eg8c')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  } 
     
 
     return (
@@ -36,8 +49,8 @@ const Contact = ({ data }) => {
 
          <div className="row">
             <div className="eight columns">
-
-               <form id="contactForm" name="contactForm">
+                 
+               <form onSubmit={sendEmail} id="contactForm" name="contactForm">
 					<fieldset>
 
                   <div>
@@ -61,7 +74,7 @@ const Contact = ({ data }) => {
                   </div>
 
                   <div>
-                     <button type='submit' onClick={handleClick} className="submit">Submit</button>
+                     <button type='submit' onClick={sendEmail} className="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
