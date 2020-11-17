@@ -35,11 +35,11 @@ LinkedIn:
 ## Resume Link: 
 [Resume](https://drive.google.com/file/d/1_PPCD79WoTThKe_K5aL6GPwk97wzwSBU/view?usp=sharing)
 
-## Screenshot;
+## Screenshot:
 ![home](https://github.com/EdenKhaos/20-Portfolio/blob/main/public/images/screenshot.JPG)
 
 ## Follow React File Setup
-I used a free template from Tim Baker and their library to create this more uniform contemporary portfolio page. I Continued with the one portfolio page that scrolls with links to projects. 
+I used a free template from Tim Baker and their components to create this more uniform contemporary portfolio page. I continued with the one portfolio page that scrolls with links to projects. 
 
 1. Used initial react-resume-template
 2. Created styling within the components and CSS folders.
@@ -51,6 +51,10 @@ I used a free template from Tim Baker and their library to create this more unif
 8. Created link to updated resume.
 9. Updated footer to link to my current information
 10. Overall styling follows the given react template with minor modifications to color of icons and images.
+
+## Future Changes:
+* add a functional email using email.js for the contact form
+* add particle.js somewhere on the page for a visual fun effect.
 
 ## Credits
 
