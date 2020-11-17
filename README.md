@@ -17,12 +17,10 @@ Now that you've worked with React and have multiple projects to share, you'll be
 
 * Update GitHub profile with pinned repositories featuring those same projects
 
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
-
 ## Links:
 
 Live Site: 
-     https://edenkhaos.github.io/20-Portfolio/
+     https:https://react-portfolio-heatherc.netlify.app/
    
 Code Repo: 
      https://github.com/EdenKhaos/20-Portfolio
