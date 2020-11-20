@@ -141,8 +141,8 @@
       {
         "title": "Google Book Tracker",
         "category": "React-based Google Books Search app. (html, css, nodejs, expressjs, react, API)",
-        "image": "fitness.jpg",
-        "url": ""
+        "image": "google.jpg",
+        "url": "https://reactgooglebooks-search.herokuapp.com/"
       },
       {
         "title": "Portfolio 2.0",
