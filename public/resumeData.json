@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Heather Cooper",
-    "occupation": "I'm a Colorado based Full-Stack Developer",
+    "occupation": "I'm a Golden Colorado based Full-Stack Developer",
     "description": "Full-Stack Developer by Day, Woodworker && Freelancer by Night",
     "image": "profile2.jpg",
     "bio": "My name is Heather, I'm a new to the coding world. Currently I'm looking for a full-time junior position.",
@@ -49,14 +49,13 @@
       {
         "school": "Arizona State University",
         "degree": "Masters in Architecture (March3+)",
-        "graduated": "May 2014",
-        "description":"AGPA: 3.4"
+        "graduated": "May 2014"
       },
       {
         "school": "The Art Institute of Portland",
         "degree": "Bachelor of Science in Interior Design (BSID)",
         "graduated": "March 2009",
-        "description":"AGPA: 3.6"
+        "description":"GPA: 3.6"
       }
     ],
     "work": [
@@ -110,15 +109,15 @@
       },
       {
         "title": "Book Finder App",
-        "category": "An application that allows you to find your next book to read! (html, css, handlebars, mysql)",
+        "category": "An application that allows you to find your next book to read!(html, css, handlebars, mysql)",
         "image": "book.jpg",
         "url": "https://book-worms-book-finder.herokuapp.com/"
       },
       {
-        "title": "Project 3 App",
-        "category": "Project 3 Description",
-        "image": "fitness.jpg",
-        "url": ""
+        "title": "Let's Get Married!",
+        "category": "An app to allow users to start planning their small wedding or elopement.(React, MERN, Auth0)",
+        "image": "wedding.jpg",
+        "url": "https://lets-get-married.herokuapp.com/"
       },
       {
         "title": "Employee Directory",
@@ -155,12 +154,12 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Heather's ability to learn quickly and remain flexible to the demands of project schedules has proven to be a great asset to project teams.",
+        "text": "She is quick to pick up any new technologies whether for design of buildings and the occupied space or for developing in javascript or C# - it is awesome to see the results come to fruition.",
         "user": "Alice Santman"
       },
       {
-        "text": "Heather's confidence, drive, rigorous work ethic, and desire to learn more about architecture and interior design are admirable.",
-        "user": "Marjorie Marcellus"
+        "text": "I thoroughly enjoyed my time working with Heather and would consider her as a truly valuable asset to absolutely any team.",
+        "user": "Sam Fan"
       }
     ]
   }
