@@ -39,11 +39,11 @@ class Header extends Component {
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>I'm a {city}, Colorado based <span>{occupation}</span>. {description}.</h3>
             <hr />
-               <div className="social">
+               {/* <row className="social">
                   <ul>
                   {networks}
                   </ul>
-               </div>
+               </row> */}
          </div>
          <div className="particle">
             <Particles

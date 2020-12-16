@@ -120,6 +120,18 @@
         "url": "https://lets-get-married.herokuapp.com/"
       },
       {
+        "title": "Google Book Tracker",
+        "category": "React-based Google Books Search app. (html, css, nodejs, expressjs, react, API)",
+        "image": "google.jpg",
+        "url": "https://reactgooglebooks-search.herokuapp.com/"
+      },
+      {
+        "title": "Portfolio 2.0",
+        "category": "Personal portfolio not using React. (html, css, github pages, w3schools)",
+        "image": "portfolio.jpg",
+        "url": "https://edenkhaos.github.io/16-Portfolio2/"
+      },
+      {
         "title": "Employee Directory",
         "category": "Employee directory to view non-sensitive data and filter employees by name. (html, css, js, react, API)",
         "image": "employee.jpg",
@@ -136,18 +148,6 @@
         "category": "A consumer will reach their fitness goals more quickly when they track their workout progress. (html, css, nodejs, expressjs)",
         "image": "fitness.jpg",
         "url": "https://workout-app17.herokuapp.com/?id=5f974d40cd7fc80004ffa956"
-      },
-      {
-        "title": "Google Book Tracker",
-        "category": "React-based Google Books Search app. (html, css, nodejs, expressjs, react, API)",
-        "image": "google.jpg",
-        "url": "https://reactgooglebooks-search.herokuapp.com/"
-      },
-      {
-        "title": "Portfolio 2.0",
-        "category": "Personal portfolio not using React. (html, css, github pages, w3schools)",
-        "image": "portfolio.jpg",
-        "url": "https://edenkhaos.github.io/16-Portfolio2/"
       }
     ]
   },
