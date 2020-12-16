@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Particles from 'react-particles-js';
+import particles from '../Const/particle';
 
 class Header extends Component {
   render() {
@@ -35,11 +37,19 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h3>I'm a {city}, Colorado based <span>{occupation}</span>. {description}.</h3>
             <hr />
-            <ul className="social">
-               {networks}
-            </ul>
+               <div className="social">
+                  <ul>
+                  {networks}
+                  </ul>
+               </div>
+         </div>
+         <div className="particle">
+            <Particles
+            params={particles}
+            className="particles"
+            />
          </div>
       </div>
 

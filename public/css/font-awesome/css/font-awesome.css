@@ -594,6 +594,7 @@
 }
 .fa-linkedin-square:before {
   content: "\f08c";
+  z-index: 99999;     
 }
 .fa-thumb-tack:before {
   content: "\f08d";
