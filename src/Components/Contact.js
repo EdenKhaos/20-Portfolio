@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = ({ data }) => {
-   const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
+   // const [url, setUrl] = useState('mailto:test@example.com?subject=subject&body=body');
    const [name, setName] = useState('');
    const [subject, setSubject] = useState('');
    const [email, setEmail] = useState('');
@@ -18,7 +18,7 @@ const Contact = ({ data }) => {
    function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'service_mzslu1t', e.target, 'user_F8g6m161066ebOv4Eg8c')
+    emailjs.sendForm('gmail', 'service_mzslu1t', e.target, 'user_F8g6m161066ebOv4Eg8cX')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
