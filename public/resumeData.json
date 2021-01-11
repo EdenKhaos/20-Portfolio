@@ -1,8 +1,8 @@
 {
   "main": {
     "name": "Heather Cooper",
-    "occupation": "Full-Stack Developer",
-    "description": "Full-Stack Developer by Day, Woodworker && Freelancer by Night",
+    "occupation": "Full-Stack Web Developer",
+    "description": "Full-Stack Web Developer by Day, Woodworker && Freelancer by Night",
     "image": "profile2.jpg",
     "bio": "My name is Heather, I'm a new to the coding world. Currently I'm looking for a full-time junior position.",
     "contactmessage": "Get in touch with me to receive further details.",
@@ -42,7 +42,7 @@
     "education": [
       {
         "school": "University of Denver",
-        "degree": "Certificate of Completion in Full Stack Web Development",
+        "degree": "Certificate in Full Stack Web Development",
         "graduated": "December 2020",
         "description": "A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
       },
@@ -63,13 +63,13 @@
         "company": "EVstudio",
         "title": "Architectural Project Designer/Assistant Project Manager",
         "years": "2016 - 2020",
-        "description": "Advanced entry level position to assist and support PM’s/PA’s from programming to CA."
+        "description": "Position to assist and support PM’s/PA’s from programming to CA."
       },
       {
         "company": "Davis Partnership Architects",
         "title": "Architectural Project Designer",
         "years": "2015 - 2016",
-        "description": "Intermediate entry level position consisting of collaborative work with drawing documentation and construction document phases for local projects using Revit."
+        "description": "Position consisting of collaborative work with drawing documentation and construction document phases for local projects using Revit."
       }
     ],
     "skills": [
